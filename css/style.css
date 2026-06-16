@@ -1,0 +1,17 @@
+.quote-section{
+    background-color: var(--color-text-light);
+    justify-content:center;
+    padding: 100px;
+}
+
+.quote-section .text{
+    font-size: var(--size-bigger);
+    font-weight: light;
+    color: var(--color-text);
+    text-align: center;
+}
+.quote-section .author{
+    font-size: var(--size-big);
+    color: var(--color-text);
+    text-align: right;
+}
