@@ -22,4 +22,50 @@
   list-style: none;
   gap: 3rem;
   justify-content: space-around;
+  
+/* -------------------------------cta - footer----------------------------------- */
+.cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--color-primary);
+  border-radius: 0.5rem;
+  color: var(--color-text-light);
+
+  width: fit-content;
+  padding: 5rem 10rem;
+  margin: 10rem auto 10rem auto;
+  font-size: var(--size-normal);
+}
+
+.cta__button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+  margin-left: 10rem;
+}
+.cta__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem 4rem;
+  color: var(--color-text-light);
+  background-color: var(--color-primary);
+  font-size: var(--size-normal);
+  font-weight: 700;
+  border: 0.3rem solid var(--color-text-light);
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  background-color: var(--color-text);
+
+  padding: 3rem 0;
+  color: var(--color-text-light);
 }
