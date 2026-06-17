@@ -42,5 +42,6 @@ body {
 
   box-sizing: border-box;
 
-  font-size: 1.6rem;
+  font-size: var(--size-normal);
+  color: var(--color-text);
 }

@@ -1,3 +1,28 @@
+.feature {
+  min-width: 19rem;
+
+  overflow: hidden;
+}
+.feature img {
+  width: 100%;
+
+  object-fit: cover;
+
+  border: 2px solid var(--color-primary);
+  border-radius: 10px;
+}
+.feature figcaption {
+  font-size: var(--size-normal);
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.feature-list {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  justify-content: space-around;
+  
 /* -------------------------------cta - footer----------------------------------- */
 .cta {
   display: flex;
