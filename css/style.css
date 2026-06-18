@@ -283,9 +283,14 @@
 
 .contact-form-section {
   gap: 3rem;
+
+  background-color: var(--color-text-light);
+
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 .contact-form-section picture {
-  border: 1px solid var(--color-text-light);
+  border: 1px solid var(--color-text);
   border-radius: 10px;
   overflow: hidden;
 }
@@ -297,7 +302,7 @@
 
   padding: 2rem 3rem;
 
-  border: 1px solid var(--color-text-light);
+  border: 1px solid var(--color-primary);
   border-radius: 10px;
 }
 .contact-form .row-elements-equal-size {
@@ -308,6 +313,12 @@
 }
 .contact-form__message {
   height: 100%;
+}
+.contact-form .input-with-label {
+  @media (max-width: 820px) {
+    flex: 1;
+    width: 100%;
+  }
 }
 
 .input-with-label {
