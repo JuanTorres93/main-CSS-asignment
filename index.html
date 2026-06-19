@@ -1,130 +1,154 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/layout.css" />
 
-  <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/typography.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/layout.css" />
+    <title>Rhythm Dance Studio</title>
+  </head>
 
-  <title>Rhythm Dance Studio</title>
-</head>
+  <body class="content-width">
+    <header>
+      <nav class="header-navigation">
+        <a href="./index.html">
+          <img src="./images/logo.png" alt="Rhythm Dance Studio" class="logo" />
+        </a>
+        <div class="mobile-menu">
+          <input type="checkbox" id="nav-toggle" class="nav-toggle" />
 
-<body class="content-width">
-  <header>
-    <nav class="header-navigation">
-      <a href="./index.html">
-        <img src="./images/logo.png" alt="Rhythm Dance Studio" class="logo" />
-      </a>
+          <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
 
-      <ul class="header-links">
-        <li><a href="./index.html" class="active">HOME</a></li>
-        <li><a href="./pages/contact.html">Contact</a></li>
-        <li><a href="./pages/aboutus.html">About Us</a></li>
-        <li><a href="#">Link two</a></li>
-      </ul>
-    </nav>
-  </header>
+          <ul class="header-links">
+            <li><a href="./index.html" class="active">Home</a></li>
+            <li><a href="./pages/lessons.html">Lessons</a></li>
+            <li><a href="./pages/styles.html">Styles</a></li>
+            <li><a href="./pages/staff.html">Staff</a></li>
+            <li><a href="./pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-  <main class="vertical-column sections-padding">
-    <section class="hero-body">
-      <div class="hero-body-content">
-        <h1 class="hero-body-title">Find Your Rhythm</h1>
+    <main class="vertical-column sections-padding">
+      <section class="hero-body">
+        <div class="hero-body-content">
+          <h1 class="hero-body-title">Find Your Rhythm</h1>
 
-        <p class="hero-body-subtext">
-          Dance classes for all ages and abilities.
-          <br />
-          Learn, grow, and express yourself through movement.
+          <p class="hero-body-subtext">
+            Dance classes for all ages and abilities.
+            <br />
+            Learn, grow, and express yourself through movement.
+          </p>
+          <a href="#" class="btn-primary">Sign up</a>
+        </div>
+
+        <picture class="hero-body-image">
+          <img
+            src="./images/dancer.jpeg"
+            alt="Dancers do not need wings to fly"
+          />
+        </picture>
+      </section>
+
+      <section>
+        <h2 class="section-title">Why dance with us?</h2>
+
+        <ul class="feature-list">
+          <li>
+            <figure class="feature">
+              <img
+                src="./images/features/1.webp"
+                alt="A teacher guiding students during a dance class."
+              />
+
+              <figcaption>
+                Learn from experienced instructors who will help you improve
+                your skills with confidence.
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure class="feature">
+              <img
+                src="./images/features/2.webp"
+                alt="Students of different ages and abilities dancing together."
+              />
+
+              <figcaption>
+                Whether you're a complete beginner or an experienced dancer, we
+                have the perfect class for you.
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure class="feature">
+              <img
+                src="./images/features/3.webp"
+                alt="Students laughing and interacting before or after class."
+              />
+
+              <figcaption>
+                Join a welcoming environment where you can make friends, have
+                fun, and grow together.
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure class="feature">
+              <img
+                src="./images/features/4.webp"
+                alt="A showcase of different styles such as Salsa, Bachata, Hip-Hop, and Contemporary."
+              />
+
+              <figcaption>
+                Explore a wide range of dance styles and discover the one that
+                inspires you most.
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+
+      <section class="quote-section">
+        <p class="text">
+          <em
+            >From the very first class, this dance studio felt like a second
+            home—supportive instructors, an inspiring atmosphere, and a
+            community that makes every step a joy.</em
+          >
         </p>
-        <a href="#" class="btn-primary">Sign up</a>
-      </div>
+        <p class="author"><strong>- Jane Doe</strong></p>
+      </section>
 
-      <picture class="hero-body-image">
-        <img src="./images/dancer.jpeg" alt="Dancers do not need wings to fly" />
-      </picture>
-    </section>
+      <section class="cta">
+        <div class="cta__content">
+          <h3 class="cta__title">Ready to Find Your Rhythm?</h3>
 
-    <section>
-      <h2 class="section-title">Why dance with us?</h2>
+          <p class="cta__description">
+            Take the first step toward confidence, creativity, and connection.
+            Join a welcoming community where dancers of all ages and skill
+            levels can learn, grow, and have fun.
+          </p>
+        </div>
 
-      <ul class="feature-list">
-        <li>
-          <figure class="feature">
-            <img src="./images/features/1.webp" alt="A teacher guiding students during a dance class." />
+        <button class="cta__button btn-primary">Sign up</button>
+      </section>
+    </main>
 
-            <figcaption>
-              Learn from experienced instructors who will help you improve
-              your skills with confidence.
-            </figcaption>
-          </figure>
-        </li>
-
-        <li>
-          <figure class="feature">
-            <img src="./images/features/2.webp" alt="Students of different ages and abilities dancing together." />
-
-            <figcaption>
-              Whether you're a complete beginner or an experienced dancer, we
-              have the perfect class for you.
-            </figcaption>
-          </figure>
-        </li>
-
-        <li>
-          <figure class="feature">
-            <img src="./images/features/3.webp" alt="Students laughing and interacting before or after class." />
-
-            <figcaption>
-              Join a welcoming environment where you can make friends, have
-              fun, and grow together.
-            </figcaption>
-          </figure>
-        </li>
-
-        <li>
-          <figure class="feature">
-            <img src="./images/features/4.webp"
-              alt="A showcase of different styles such as Salsa, Bachata, Hip-Hop, and Contemporary." />
-
-            <figcaption>
-              Explore a wide range of dance styles and discover the one that
-              inspires you most.
-            </figcaption>
-          </figure>
-        </li>
-      </ul>
-    </section>
-
-    <section class="quote-section">
-      <p class="text">
-        <em>From the very first class, this dance studio felt like a second
-          home—supportive instructors, an inspiring atmosphere, and a
-          community that makes every step a joy.</em>
-      </p>
-      <p class="author"><strong>- Jane Doe</strong></p>
-    </section>
-
-    <section class="cta">
-      <div class="cta__content">
-        <h3 class="cta__title">Ready to Find Your Rhythm?</h3>
-
-        <p class="cta__description">
-          Take the first step toward confidence, creativity, and connection.
-          Join a welcoming community where dancers of all ages and skill
-          levels can learn, grow, and have fun.
-        </p>
-      </div>
-
-      <button class="cta__button">Sign up</button>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <span class="footer__copyright">Copyright ©</span>
-  </footer>
-</body>
-
+    <footer class="footer">
+      <span class="footer__copyright">Copyright ©</span>
+    </footer>
+  </body>
 </html>
