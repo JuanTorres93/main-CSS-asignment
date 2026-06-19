@@ -1,5 +1,5 @@
 .content-width {
-  /*max-width: 140rem;*/
+  max-width: 160rem;
   margin: 0 auto;
 }
 
@@ -54,8 +54,8 @@
 }
 
 .styles-page {
-    padding-top: 5rem;
-    text-align: center;
+  padding-top: 5rem;
+  text-align: center;
 }
 
 .row-elements-equal-size {
