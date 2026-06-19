@@ -1,7 +1,7 @@
 .quote-section {
-  background-color: var(--color-text-light);
-  justify-content: center;
-  padding: 100px;
+    background-color: var(--color-text-light);
+    justify-content:center;
+    padding: 10rem;
 }
 
 .quote-section .text {
@@ -293,6 +293,55 @@
   padding: 3rem 0;
   color: var(--color-text-light);
 }
+
+.bio-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 2rem;
+}
+
+.bio-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.bio{
+  text-align: justify;
+  font-size: var(--size-normal);
+}
+
+.bio-header{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bio-text {
+
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.name{
+  text-align: center;
+}
+
+.role{
+  text-align: center;
+}
+
+.bio-picture {
+  width: 15rem;
+  height: 17.5rem;
+  border-radius: 2rem;
+  border: 2px solid var(--color-primary);
+}
+
 
 .contact-icon {
   display: inline-block;
