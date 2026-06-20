@@ -1,5 +1,5 @@
 .feature-list--lessons li {
-    padding: 0rem;
+  padding: 0rem;
 }
 
 .feature--lessons {
@@ -104,26 +104,4 @@
   padding-right: 10rem;
 
   border-left: 0.1rem solid var(--color-primary);
-}
-
-.back-to-top {
-  position: fixed;
-
-  right: 2rem;
-  bottom: 2rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 3rem;
-  height: 3rem;
-
-  border-radius: 50%;
-
-  background-color: var(--color-primary);
-  color: var(--color-text-light);
-
-  font-size: 1.5rem;
-  text-decoration: none;
 }
